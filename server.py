@@ -1,7 +1,5 @@
 import socket
-import pickle
 
-HEADERSIZE = 10
 filename = input("Enter file to be sent: ")
 f = open(filename, "rb")
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  #s variable is the TCP/IP socket
